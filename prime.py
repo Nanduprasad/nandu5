@@ -1,10 +1,10 @@
-num=75
+num=24
 if num>1:
    for i in range(2,num):
-       if(num%i)==0:
-           print("no")
-           break
-   else:
-       print("yes")
+      if(num%i)==0:
+         print("no")
+         break
+      else:
+         print("yes")
 else:
    print("no")
